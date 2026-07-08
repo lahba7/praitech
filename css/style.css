@@ -1703,3 +1703,17 @@ h1, h2, h3, h4 {
         position: static;
     }
 }
+
+/* Article Image */
+.article-content__image {
+    margin: 32px 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.article-content__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
