@@ -989,15 +989,15 @@ h1, h2, h3, h4 {
 
 .client-logo {
     flex-shrink: 0;
-    width: 180px;
+    width: 120px;
     height: 120px;
     background: var(--white);
     border: 2px solid var(--gray-200);
-    border-radius: 16px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    padding: 20px;
     transition: var(--transition);
 }
 
@@ -1008,8 +1008,8 @@ h1, h2, h3, h4 {
 }
 
 .client-logo img {
-    width: 85%;
-    height: 85%;
+    width: 70%;
+    height: 70%;
     object-fit: contain;
 }
 
