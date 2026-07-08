@@ -1665,6 +1665,18 @@ h1, h2, h3, h4 {
     padding: 24px;
 }
 
+.sidebar-card--image {
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar-card--image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius);
+}
+
 .sidebar-card h4 {
     font-size: 1rem;
     color: var(--gray-900);
