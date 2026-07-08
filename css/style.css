@@ -180,6 +180,24 @@ h1, h2, h3, h4 {
     font-size: 1.6rem;
     font-weight: 900;
     letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo-img {
+    height: 50px;
+    width: auto;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+.nav__logo-img {
+    height: 45px;
+    width: auto;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .logo-pray {
